@@ -1,0 +1,13 @@
+using System;
+namespace ConsoleApp73
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int meters = int.Parse(Console.ReadLine());
+            decimal kilometrs = meters / 1000M;
+            Console.WriteLine($"{kilometrs:f2}");
+        }
+    }
+}
